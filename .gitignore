@@ -1,0 +1,63 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.py,cover
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Model files (IMPORTANT)
+# =========================
+gan_model/
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# =========================
+# Generated outputs
+# =========================
+generated_images/
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# Data (optional - depends)
+# =========================
+data/
+# (Remove this line if your dataset is small and should be shared)
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Git
+# =========================
+.git/
